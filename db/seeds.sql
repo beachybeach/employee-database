@@ -1,4 +1,4 @@
-INSERT INTO race (name)
+INSERT INTO races (name)
 VALUES
 ('Hobbits'),
 ('Elves'),
