@@ -3,8 +3,8 @@ CREATE DATABASE middleearth_db;
 USE middleearth_db;
 
 CREATE TABLE races (
-   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(30)
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(30) NULL
 );
 
 CREATE TABLE role (
